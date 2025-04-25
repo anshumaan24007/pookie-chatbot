@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { projectsData } from "./mockData";
 import Send from "./send.png";
 import LinkedIn from "./image.png";
-import Options from "../Options";
+import Options from "./Options";
 
 const ChatBot = () => {
   const [inp, setInp] = useState("");
